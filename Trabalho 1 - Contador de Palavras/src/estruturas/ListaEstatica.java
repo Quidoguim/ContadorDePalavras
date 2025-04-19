@@ -33,7 +33,6 @@ public class ListaEstatica {
     }
 
     public void imprimirTop20() {
-        // Ordenação simples (Bubble Sort) por frequência decrescente
         for (int i = 0; i < tamanho - 1; i++) {
             for (int j = 0; j < tamanho - i - 1; j++) {
                 if (palavras[j].frequencia < palavras[j + 1].frequencia) {
